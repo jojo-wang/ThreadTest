@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.jiao.threadtest.MainActivity">
+
+    <Button
+        android:id="@+id/two_TestService2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Start 2 TestService2" />
+
+    <Button
+        android:id="@+id/TestService_TestService2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Start TestService and TestService2" />
+
+    <Button
+        android:id="@+id/TestService2_TestService3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Start TestService2 and TestService3" />
+
+    <Button
+        android:id="@+id/two_TestIntentService2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Start 2 TestIntentService2" />
+
+    <Button
+        android:id="@+id/TestIntentService_TestIntentService2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Start TestIntentService and TestIntentService2" />
+
+    <Button
+        android:id="@+id/TestIntentService2_TestIntentService3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="Start TestIntentService2 and TestIntentService3" />
+</LinearLayout>
